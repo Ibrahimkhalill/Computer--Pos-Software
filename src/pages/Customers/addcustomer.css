@@ -1,0 +1,9 @@
+.main-container{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 10vh;
+    row-gap: 3vh;
+    width: 100vw;
+    align-items: center;
+    height:max-content
+  }

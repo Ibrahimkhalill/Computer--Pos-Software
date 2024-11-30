@@ -1,0 +1,499 @@
+.full_div_customer_sale_report {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  width: 100vw;
+  /* height: 93.3vh; */
+  overflow: hidden;
+}
+
+h2 {
+  padding-bottom: 1vw;
+}
+/* End Utility */
+
+.first_row_div_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  /* padding-top: 1vh; */
+  padding-bottom: 1vh;
+  column-gap: 1vw;
+  width: 98vw;
+  height: 10vh;
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+
+.second_row_div_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  /* padding-left: 1vw; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  padding: 1vh;
+  column-gap: 1vw;
+  width: 98vw;
+  height: 37vh;
+  
+}
+
+.third_row_div_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  /* padding-left: 1vw; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  column-gap: 1vw;
+  width: 98vw;
+  height: 42vh;
+  
+}
+
+.input_feild_customer_sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1vw;
+}
+
+.select_field_customer_sale_report {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.7vw;
+  background-color: #ffffff;
+  width: 12vw;
+  height: 3.2vh;
+  border-color: #cac3c3;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.input_field_customer_sale_report {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.8vw;
+  padding-left: .2vw;
+  background-color: #ffffff;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.label_field_customer_sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 100px 0 rgba(32, 31, 31, 0.5);
+  border-radius: 3px;
+  font-size: 0.8vw;
+  padding-left: 0.7vw;
+  width: 7vw;
+  height: 3.2vh;
+  font-weight: bold;
+}
+
+.button_field_customer_sale_report {
+  padding: 5px 5px;
+  font-size: 0.8vw;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  margin-left: 1vw;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 0.5vh;
+  box-shadow: 0 5px #999;
+  width: 6vw;
+  height: 3.2vh;
+}
+
+/* First Search field Start */
+
+.container_search_column1_customer_sale_report {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.container_search_column1_customer_sale_report .search_customer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  padding-top: 1vh;
+}
+
+/* First Search field End */
+
+.container_search_customer_sale_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40vw;
+}
+
+/* Second Show All End */
+
+/* Table design start */
+
+.table_wrapper_customer_sale_report {
+  max-height: 500px;
+  overflow-y: scroll;
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-top: 0vw;
+  column-gap: 1vw;
+  width: 97vw;
+  height: 36vh;
+  animation-name: transition_from_left_to_right;
+  animation-duration: 1s;
+}
+
+.table_wrapper_customer_sale_report th {
+  position: sticky;
+  top: 0;
+  background: #433b69;
+  color: #cac3c3;
+  width: 100vw;
+  font-size: 1vw;
+}
+
+.table_wrapper_customer_sale_report td {
+  text-align: center;
+  font-size: 0.8vw;
+}
+
+
+
+.table_wrapper_customer_sale_report .rows {
+  cursor: pointer;
+}
+
+.table_wrapper_customer_sale_report .rows:focus {
+  outline: none;
+  background-color: green; 
+}
+
+.table_wrapper_customer_sale_report .rows.selected {
+  background-color: green; 
+}
+
+/* Table design End */
+
+.container_view_update_customer_sale_report {
+  
+  margin-left: 1vw;
+  
+}
+
+/* Due Payment gatway */
+.container_due_payment_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  /* padding-left: 1vw; */
+  padding-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-top: 1vh;
+  column-gap: 2vw;
+  width: 34vw;
+  height: 40vh;
+  /* border: 2px solid #000000; */
+  animation-name: effectRight;
+  animation-duration: 1s;
+}
+.container_due_payment_customer_sale_report_boxs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.input-field_customer_sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_due_payment_customer_sale_report .input_field_customer_sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.3vw;
+}
+
+/* Due Payment gatway end */
+
+/* Container view start */
+.container_view_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  justify-items: center;
+  align-items: center;
+  column-gap: 1vw;
+  width: 60vw;
+  height: 10vh;
+  animation-name: effectLeft;
+  animation-duration: 1s;
+  
+}
+
+.container_view_customer_sale_report button {
+  width: 5vw;
+  height: 6vh;
+}
+
+.container_view_customer_sale_report .input-feild_customer_sale {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Container view end */
+
+/* Container update start */
+.container_update_customer_sale_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 2vw;
+  margin-top: 0.5vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  padding-top: 3vh;
+  column-gap: 1vw;
+  width: 60vw;
+  height: 29vh;
+  
+  animation-name: effectButtom;
+  animation-duration: 1s;
+}
+/* Container update column1 start */
+
+.container_update_column1_customer_sale_report {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_update_column1_customer_sale_report .input_feild_customer_sale {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+
+.container_update_column2_customer_sale_report {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_update_column2_customer_sale_report .input_feild_customer_sale {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+.container_update_column2_customer_sale_report
+  .input_feild_customer_sale
+  .btn_customer_sale_report {
+  height: 4.5vh;
+}
+/* Animation */
+
+.loader-container_customer_sale_report {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%;
+}
+
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectButtom {
+  0% {
+    transform: translateY(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  5% {
+    visibility: hidden;
+    opacity: 0.05;
+    box-shadow: 2px 2px 125px 2px rgba(145, 141, 141, 0.5);
+  }
+  10% {
+    visibility: visible;
+    opacity: 0.1;
+    box-shadow: 2px 2px 120px 2px rgba(145, 141, 141, 0.5);
+  }
+  15% {
+    visibility: visible;
+    opacity: 0.15;
+    box-shadow: 2px 2px 110px 2px rgba(145, 141, 141, 0.5);
+  }
+  20% {
+    visibility: visible;
+    opacity: 0.2;
+    box-shadow: 2px 2px 100px 2px rgba(145, 141, 141, 0.5);
+  }
+
+  25% {
+    visibility: hidden;
+    opacity: 0.25;
+    box-shadow: 2px 2px 95px 2px rgba(145, 141, 141, 0.5);
+  }
+  30% {
+    visibility: visible;
+    opacity: 0.3;
+    box-shadow: 2px 2px 90px 2px rgba(145, 141, 141, 0.5);
+  }
+  35% {
+    visibility: visible;
+    opacity: 0.35;
+    box-shadow: 2px 2px 85px 2px rgba(145, 141, 141, 0.5);
+  }
+  40% {
+    visibility: visible;
+    opacity: 0.4;
+    box-shadow: 2px 2px 80px 2px rgba(145, 141, 141, 0.5);
+  }
+  45% {
+    visibility: hidden;
+    opacity: 0.45;
+    box-shadow: 2px 2px 75px 2px rgba(145, 141, 141, 0.5);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    box-shadow: 2px 2px 70px 2px rgba(145, 141, 141, 0.5);
+  }
+  55% {
+    visibility: visible;
+    opacity: 0.55;
+    box-shadow: 2px 2px 65px 2px rgba(145, 141, 141, 0.5);
+  }
+  60% {
+    visibility: visible;
+    opacity: 0.6;
+    box-shadow: 2px 2px 60px 2px rgba(145, 141, 141, 0.5);
+  }
+  65% {
+    visibility: visible;
+    opacity: 0.65;
+    box-shadow: 2px 2px 55px 2px rgba(145, 141, 141, 0.5);
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0.7;
+    box-shadow: 2px 2px 50px 2px rgba(145, 141, 141, 0.5);
+  }
+  75% {
+    visibility: visible;
+    opacity: 0.75;
+    box-shadow: 2px 2px 45px 2px rgba(145, 141, 141, 0.5);
+  }
+  80% {
+    visibility: visible;
+    opacity: 0.8;
+    box-shadow: 2px 2px 40px 2px rgba(145, 141, 141, 0.5);
+  }
+  85% {
+    visibility: visible;
+    opacity: 0.85;
+    box-shadow: 2px 2px 15px 2px rgba(145, 141, 141, 0.5);
+  }
+  90% {
+    visibility: visible;
+    opacity: 0.9;
+    box-shadow: 2px 2px 10px 2px rgba(145, 141, 141, 0.5);
+  }
+  95% {
+    visibility: visible;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px 2px rgba(145, 141, 141, 0.5);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 2px 2px 4px 2px rgba(145, 141, 141, 0.5);
+  }
+}
+
+@keyframes transition_from_left_to_right {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

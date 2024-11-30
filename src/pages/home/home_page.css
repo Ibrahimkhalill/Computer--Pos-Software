@@ -1,0 +1,196 @@
+
+
+.card_invisible {
+    position: relative;
+    
+    
+  
+}
+
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15vw; */
+    padding: 2vw;
+    /* align-items: center; */
+    
+    
+
+
+}
+
+.sidebar-open .home_page_container {
+    margin-left: 5vw; /* Adjust the left margin when the sidebar is open */
+}
+a:hover {
+    color: #b6b7d9;
+}
+
+.income,
+.qunatity,
+.purchase,
+.net_income {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+}
+
+
+
+
+.py-l {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.font_size {
+    font-size: 3vw;
+}
+
+.card,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 2vw;
+    width: 15vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center; 
+    background-color: #F3F6F9;
+    color:#757575;
+    font-family: "Heebo",sans-serif;
+    border-radius: 5px;
+    
+}
+
+.card {
+ 
+    box-shadow: 0px 0px 2px  #F3F6F9;
+}
+
+.card2 {
+ 
+    box-shadow: 0px 0px 2px  #F3F6F9;
+}
+
+.card3 {
+   
+    box-shadow: 0px 0px 2px  #F3F6F9;
+}
+
+.card4 {
+   
+    box-shadow: 0px 0px 2px  #F3F6F9;
+}
+
+.card_invisible {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    /* padding-right: 2vw; */
+    /* width: 81vw; */
+    height: 22vh;
+    font-weight: bold;
+    column-gap: 1vw;
+    /* margin-top: 40px ;
+    float: right;
+    margin-right: 50px; */
+  
+    
+}
+.sidebar-open .card {
+  width: 13vw;
+}
+.sidebar-open .card_invisible {
+    width: 82vw;
+  }
+  .sidebar-open .box_bar_chart{
+    width:  30vw;
+    height:48vh;
+    
+  }
+  .sidebar-open .box_pie_chart{
+    width:  20vw;
+    height: 48vh;
+  };
+  .sidebar-open.container_barchart{
+    column-gap: 1vw !important; 
+  }
+.button {
+    background-color: #6c96b3;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card11,
+.card12,
+.card13,
+.card14 {
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+    width: 17vw;
+    height: 2vw;
+    text-align: left;
+    
+}
+
+.card11 {
+    background: linear-gradient(0.25turn, #f73d53, #ae1818, #c65555);
+    box-shadow: 0px 0px 2px linear-gradient(0.25turn, #f73d53, #ae1818, #c65555);
+    
+}
+
+.card12 {
+    background: linear-gradient(0.25turn, rgb(15, 19, 87), #555c84, #0d1d79);
+    box-shadow: 0px 0px 2px linear-gradient(0.25turn, #f73d53, #ae1818, #c65555);
+}
+
+.card13 {
+    background-color: rgb(72, 148, 223);
+    box-shadow: 0px 0px 2px linear-gradient(0.25turn, #f73d53, #ae1818, #c65555);
+}
+
+.card14 {
+    background: linear-gradient(0.25turn, #2e6629, #62a369, #5da853);
+    box-shadow: 0px 0px 2px linear-gradient(0.25turn, #f73d53, #ae1818, #c65555);
+}
+
+.dollar_icon {
+    font-size: 2.5vw;
+}
+.font_size_1 {
+    font-size: 3.5vw;
+    
+}
+
+.operation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.4vw;
+}
+
+.arrow {
+    font-size: 1.3vw;
+}
+
+.py-2 {
+    margin-right: 1vw;
+}
+
+
+
+

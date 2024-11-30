@@ -1,8 +1,21 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default function Search() {
+
+  
+  /**
+   * @param {{ get: (arg0: string) => any; }} formData
+   */
+  function search(formData) {
+    const query = formData.get("query");
+    alert(`You searched for '${query}'`);
+    console.log(`hi, ${query}`);
+    
+  }
+  return (
+    <form action={search}>
+      <input name="query" />
+      <button type="submit">Search</button>
+    </form>
+  );
+}

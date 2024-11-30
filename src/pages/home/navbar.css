@@ -1,0 +1,113 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(0.25turn, #e3cbec, #bf50db, #5a0d79);
+  padding-right: 1vw;
+  margin-left: -1vw;
+  height: 6vh;
+}
+
+
+ul {
+  list-style-type: none;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4vw;
+ 
+}
+.sidebar-open{
+  margin-left: 14.5vw;
+}
+
+.brand-merina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+   
+}
+
+.merinasoft-icon{
+  height: 2vw;
+}
+
+li {
+  color: #fff;
+  
+}
+a{
+  text-decoration: none;
+} 
+
+.logout_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: .2vw;
+  color: #fff;
+  
+}
+.company{
+  font-family: 'Kdam Thmor Pro';
+  font-size: 22px;
+}
+.first_word {
+  
+  background: linear-gradient(0.25turn, #9a17cd, #ab17cf, #9215bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.second_word {
+  background: linear-gradient(0.25turn, #420358, #430350, #2e023f); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.large{
+  font-size: 30px;
+}
+
+/* .logout_icon{
+  font-size: 1.1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: .1vw;
+  padding: .8vw;
+  background: linear-gradient(0.25turn, #690989, #791093, #7507a4);
+}
+
+.company p {
+  margin-top: 7px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-family: 'Kdam Thmor Pro';
+}
+
+.first_word {
+
+  background: linear-gradient(0.25turn, #9814cc, #ac15d2, #8c0eba);
+}
+
+.Second_word {
+  background: linear-gradient(0.25turn, #8315a8, #4a015a, #4f056a);
+}
+
+.main {
+  display: flex;
+  height: 35px;
+ 
+}
+
+*/

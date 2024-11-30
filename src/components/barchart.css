@@ -1,0 +1,44 @@
+.container_barchart{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    align-items: flex-start;
+   
+    
+}
+.box_bar_chart{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35vw;
+  height: 56vh;
+  border-radius: 5px;
+  background: #F3F6F9;
+  padding: 1vw;
+  /* padding-top: 2vw; */
+  color: #191C24;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+}
+.box_pie_chart{
+    /* height: 31.5vw; */
+    height: 27.2vw;
+    width: 25vw;
+
+    border-radius: 5px;
+    background: #F3F6F9;
+    padding: 1vw;
+    
+    color: #191C24;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.box_head{
+  
+  padding-bottom: 1vw;
+  /* position: absolute;
+  left: 0; */
+  
+}

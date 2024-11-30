@@ -1,0 +1,428 @@
+.full_div_cash_book_report {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  width: 100vw;
+  /* height: 93.3vh; */
+  overflow: hidden;
+}
+
+/* Radio Button Start */
+.radio_buttons_btr {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 0.3vw; */
+  margin-top: 0.3vw;
+  background: #04aa6d;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  padding-left: 1vw;
+  /* margin-right: 0.2vw; */
+  border-radius: 0.2vw;
+  /* width: 99vw; */
+}
+
+.radio_buttons_btr label {
+  margin-right: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.radio_buttons_btr label {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  color: #0f0f0f;
+  padding: 0.2vw 0.8vw;
+  border-radius: 1vw;
+  background-color: #cac3c3;
+}
+.radio_buttons_btr input[type="radio"] {
+  accent-color: #04aa6d;
+  font-size: 1vw;
+  width: 1vw;
+  height: 1vw;
+}
+.radio_buttons_btr label:hover {
+  background: #838584;
+}
+/* Radio Button End */
+
+.loader-container_cash_book_report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Utility */
+
+.first_row_div_cash_book_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  column-gap: 9vw;
+  width: 98vw;
+  height: 8vh;
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+
+/* .first_column_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+.second_row_div_cash_book_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  column-gap: 1vw;
+  width: 98vw;
+  height: 50vh;
+}
+
+.third_row_div_cash_book_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  column-gap: 1vw;
+  width: 98vw;
+  height: 26.3vh;
+}
+
+.input_field_cash_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_field_cash_book_report {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  padding-left: .2vw;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.label_field_cash_book_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 100px 0 rgba(32, 31, 31, 0.5);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 0.9vw;
+  font-weight: bold;
+  padding-left: .7vw;
+  width: 9vw;
+  height: 3vh;
+  margin-right: 1vw;
+}
+
+.button_field_cash_book_report {
+  padding: 5px 5px;
+  font-size: 0.8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  margin-left: 1vw;
+
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 0.5vh;
+  box-shadow: 0 5px #999;
+  width: 6vw;
+  height: 3.2vh;
+}
+
+/* First Search field Start */
+
+.container_search_column1_cash_book_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container_search_column2_cash_book_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Table design start */
+
+.table_wrapper_cash_book_report {
+  max-height: 600px;
+  overflow-y: scroll;
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  border-radius: 2vh;
+  transition: 0.5s;
+  column-gap: 1vw;
+  width: 97vw;
+  height: 48vh;
+  animation-name: effectLeft;
+  animation-duration: 1s;
+}
+
+.table_wrapper_cash_book_report th {
+  position: sticky;
+  top: 0;
+  background: #433b69;
+  color: #cac3c3;
+  width: 100vw;
+  font-size: 1vw;
+}
+
+.table_wrapper_cash_book_report td {
+  text-align: center;
+  font-size: 0.8vw;
+}
+
+.table_wrapper_cash_book_report .row:focus {
+  outline: none;
+  background: green;
+}
+
+/* Container view start */
+
+
+.container_view_cash_book_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1vw;
+  padding-top: 1vh;
+  margin-left: 1vw;
+  column-gap: 1vw;
+  width: 100vw;
+  height: 24vh;
+ 
+
+}
+.container_view_cash_book_report .input_field_cash_report {
+  padding-bottom: 0.5vw;
+}
+
+.contaier_view_column1_cash_book_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vw;
+  column-gap: 1vw;
+  width: 25vw;
+  height: 24vh;
+  animation-name: effectButtom;
+  animation-duration: 1s;
+ 
+}
+.contaier_view_column2_cash_book_report {
+  box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-left: 1vw;
+  margin-left: 1vw;
+  padding-top: 1vh;
+  column-gap: 1vw;
+  width: 25vw;
+  height: 29vh;
+  animation-name: effectRight;
+  animation-duration: 1s;
+  
+}
+
+.excel_export_cash_book_report button {
+  width: 6vw;
+  height: 8vh;
+}
+
+
+
+/* Animation */
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectbuttom {
+  0% {
+    transform: translateY(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+/* animation */
+
+@keyframes fadeIn {
+  5% {
+    visibility: hidden;
+    opacity: 0.05;
+    box-shadow: 2px 2px 125px 2px rgba(145, 141, 141, 0.5);
+  }
+  10% {
+    visibility: visible;
+    opacity: 0.1;
+    box-shadow: 2px 2px 120px 2px rgba(145, 141, 141, 0.5);
+  }
+  15% {
+    visibility: visible;
+    opacity: 0.15;
+    box-shadow: 2px 2px 110px 2px rgba(145, 141, 141, 0.5);
+  }
+  20% {
+    visibility: visible;
+    opacity: 0.2;
+    box-shadow: 2px 2px 100px 2px rgba(145, 141, 141, 0.5);
+  }
+
+  25% {
+    visibility: hidden;
+    opacity: 0.25;
+    box-shadow: 2px 2px 95px 2px rgba(145, 141, 141, 0.5);
+  }
+  30% {
+    visibility: visible;
+    opacity: 0.3;
+    box-shadow: 2px 2px 90px 2px rgba(145, 141, 141, 0.5);
+  }
+  35% {
+    visibility: visible;
+    opacity: 0.35;
+    box-shadow: 2px 2px 85px 2px rgba(145, 141, 141, 0.5);
+  }
+  40% {
+    visibility: visible;
+    opacity: 0.4;
+    box-shadow: 2px 2px 80px 2px rgba(145, 141, 141, 0.5);
+  }
+  45% {
+    visibility: hidden;
+    opacity: 0.45;
+    box-shadow: 2px 2px 75px 2px rgba(145, 141, 141, 0.5);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    box-shadow: 2px 2px 70px 2px rgba(145, 141, 141, 0.5);
+  }
+  55% {
+    visibility: visible;
+    opacity: 0.55;
+    box-shadow: 2px 2px 65px 2px rgba(145, 141, 141, 0.5);
+  }
+  60% {
+    visibility: visible;
+    opacity: 0.6;
+    box-shadow: 2px 2px 60px 2px rgba(145, 141, 141, 0.5);
+  }
+  65% {
+    visibility: visible;
+    opacity: 0.65;
+    box-shadow: 2px 2px 55px 2px rgba(145, 141, 141, 0.5);
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0.7;
+    box-shadow: 2px 2px 50px 2px rgba(145, 141, 141, 0.5);
+  }
+  75% {
+    visibility: visible;
+    opacity: 0.75;
+    box-shadow: 2px 2px 45px 2px rgba(145, 141, 141, 0.5);
+  }
+  80% {
+    visibility: visible;
+    opacity: 0.8;
+    box-shadow: 2px 2px 40px 2px rgba(145, 141, 141, 0.5);
+  }
+  85% {
+    visibility: visible;
+    opacity: 0.85;
+    box-shadow: 2px 2px 15px 2px rgba(145, 141, 141, 0.5);
+  }
+  90% {
+    visibility: visible;
+    opacity: 0.9;
+    box-shadow: 2px 2px 10px 2px rgba(145, 141, 141, 0.5);
+  }
+  95% {
+    visibility: visible;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px 2px rgba(145, 141, 141, 0.5);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 2px 2px 4px 2px rgba(145, 141, 141, 0.5);
+  }
+}

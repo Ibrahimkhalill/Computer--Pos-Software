@@ -1,0 +1,212 @@
+.file-input-container {
+    position: relative;
+    width: 20vw; /* Set the desired width */
+    height: 7vh; /* Set the desired height */
+    overflow: hidden;
+    border-radius: 2vw;
+    border: none;
+    box-shadow: 0 4px 30px 0 rgba(139, 161, 172, 0.821);
+    animation-name: effectTop;
+    animation-duration: 1s;
+    /* margin-top: 2vw; */
+  }
+  .file-input-container_save{
+    position: relative;
+    width: 20vw; /* Set the desired width */
+    height: 7vh; /* Set the desired height */
+    overflow: hidden;
+    border-radius: 2vw;
+    border: none;
+    box-shadow: 0 4px 30px 0 rgba(139, 161, 172, 0.821);
+    
+  }
+  
+  .json_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    row-gap: 1vw;
+   
+  }
+  
+  .custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .custom-file-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    padding: 5px;
+  }
+  .json_full_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vw;
+    height: 93.5vh;
+    background-color: lightsteelblue;
+  }
+  
+  .jason_content {
+    box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+    border-radius: .3vh;
+    margin-top: 6vw;
+    width: auto; 
+    max-width: 80vw; 
+    height: 85vh;
+    background-color: white;
+    font-size: 0.9vw;
+    padding: 1vw;
+    position: relative;
+    
+  }
+  
+
+  .main_content_json {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+    border-radius: 2vh;
+    transition: 0.5s;
+    column-gap: 1vw;
+    height: 70vh;
+    width: 96.3vw;
+    background-color: #ffffff;
+    position: relative;
+   
+   
+  }
+  .json_full_conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    
+  }
+  .json_button{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0vw;
+    border: 1px solid rgb(248, 248, 248);
+    height: 2vw;
+  
+  }
+  .cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    border: 1px solid rgb(207, 207, 207);
+  }
+  .download_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    border: 1px solid rgb(207, 207, 207);
+    position: relative;
+  }
+ 
+  .json_result {
+    width: 79vw;
+    height: 43.5vh;
+    border: none;
+    outline: none;
+    resize: none; /* Disable textarea resizing */
+    font-size: 0.9vw;
+    overflow: auto; /* Changed to 'auto' for automatic scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+    background-color: transparent; /* Set the color of the scrollbar track */
+  }
+.table_div_excel_json{
+    max-height: 470px;
+    overflow-y: scroll;
+    box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+    transition: 0.5s;
+    margin-top: 1vw;
+    padding-top: 0vw;
+    column-gap: 1vw;
+    width: 95vw;
+    height: 60vh;
+    /* animation-name: effectLeft;
+    animation-duration: 1s; */
+}
+.table_div_excel_json_empty{
+  max-height: 470px;
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  transition: 0.5s;
+  margin-top: 1vw;
+  padding-top: 0vw;
+  column-gap: 1vw;
+  width: 95vw;
+  height: 60vh;
+  background-color: #ffffff;
+  animation-name: effectLeft;
+  animation-duration: 1s;
+ 
+}
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectbuttom {
+  0% {
+    transform: translateY(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

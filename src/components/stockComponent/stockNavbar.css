@@ -1,0 +1,30 @@
+.radio_buttons_btrs {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 0.3vw; */
+  margin-top: 0.3vw;
+  background: #04aa6d;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  padding-left: 1vw;
+  /* margin-right: 0.2vw; */
+  border-radius: 0.2vw;
+  align-items: center;
+}
+
+.radio_buttons_btrs .StockNavBar_input {
+  background-color: rgb(207, 207, 207) !important;
+  border: none;
+  margin: 0 0.8vw;
+  padding: 0.2vw;
+  border-radius: 0.5vw;
+  font-size: 0.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio_buttons_btrs > .Active_btn {
+  background-color: rgb(139, 18, 18) !important;
+  font-size: 0.9vw;
+}

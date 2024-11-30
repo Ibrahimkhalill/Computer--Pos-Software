@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support {
+  display: flex;
+  margin-left: 260px;
+  font-size: 2rem;
+}
+.collection,
+.saleslist,
+.createcourier,
+.newsale,
+.packagesale,
+.salesreturn,
+.addproduct,
+.managebarcode,
+.managebrands,
+.managecategories,
+.manageunits,
+.managewarehouse,
+.productdamages,
+.updateprice,
+.uploadproductbycsv,
+.bulkpurchases,
+.payment,
+.purchasereturn,
+.purchasereturnreceive,
+.purchaseindividual,
+.purchaselist,
+.supplierwisepurchases,
+.addcustomer,
+.customercategory,
+.managecustomers,
+.uploadcustomerbycsv{
+
+  display: flex;
+  margin-left: 260px;
+  font-size: 2rem;
+}
+

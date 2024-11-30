@@ -1,0 +1,171 @@
+.file-input-container {
+  position: relative;
+  width: 20vw; /* Set the desired width */
+  height: 10vh; /* Set the desired height */
+  overflow: hidden;
+  border-radius: 2vw;
+  border: none;
+  box-shadow: 0 4px 30px 0 rgba(139, 161, 172, 0.821);
+  margin-bottom: 2vw; /* Add margin-bottom to create space between containers */
+ 
+}
+
+.jason_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.custom-file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  padding: 5px;
+}
+
+.jason_content {
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  border-radius: .3vh;
+  margin-top: 6vw;
+  width: auto; 
+  max-width: 80vw; 
+  height: 55vh;
+  background-color: white;
+  font-size: 0.9vw;
+  padding: 1vw;
+  position: relative;
+}
+
+.jason_content pre {
+  max-width: 80vw; 
+  word-wrap: break-word; 
+  white-space: pre-wrap;
+}
+
+.main_conent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2vw;
+}
+.json_full_conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  
+ 
+}
+.json_button{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  border: 1px solid rgb(248, 248, 248);
+  height: 2vw;
+
+}
+.edit_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  border: 1px solid rgb(207, 207, 207);
+}
+.copy_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  border: 1px solid rgb(207, 207, 207);
+  position: relative;
+}
+.copy-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+.save-message{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+.jason_content textarea {
+ 
+  width: 79vw;
+  height: 43.5vh;
+  border: none;
+  outline: none;
+  resize: none; /* Disable textarea resizing */
+  font-size: 0.9vw;
+  overflow: auto; /* Changed to 'auto' for automatic scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.json_result {
+  width: 79vw;
+  height: 43.5vh;
+  border: none;
+  outline: none;
+  resize: none; /* Disable textarea resizing */
+  font-size: 0.9vw;
+  overflow: auto; /* Changed to 'auto' for automatic scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.json_result::-webkit-scrollbar {
+  width: 6px; /* For Chrome, Safari, and Opera */
+}
+
+.json_result::-webkit-scrollbar-thumb {
+  background-color: transparent; /* For Chrome, Safari, and Opera */
+}
+.jason_content textarea::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.jason_content textarea::-webkit-scrollbar-thumb {
+  background-color: #ccc; 
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+  cursor: pointer;
+}
+
+.jason_content textarea::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the color of the scrollbar track */
+}
